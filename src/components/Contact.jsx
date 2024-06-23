@@ -42,7 +42,7 @@ function Contact() {
         <div className=" hover:scale-105 duration-500 ease-in bg-purple-700 sm:w-[300px] sm:mt-6  rounded-xl h-[170px] flex  flex-col items-center justify-center w-[70%]">
           <div className="flex items-center gap-2 my-2"><BsWhatsapp /><span> Whatsapp </span><FaArrowDown className="animate-bounce"/></div>
           <div className="font-normal text-xs my-2">+91 7972483330</div>
-          <div ><a className="flex py-3 gap-2 items-center" href="https://web.whatsapp.com/send/?phone=9359670045&text=hello">Text me <FaArrowRight className=" animate-pulse" /></a></div>
+          <div ><a className="flex py-3 gap-2 items-center" href="https://web.whatsapp.com/send/?phone=7972483330&text=hello">Text me <FaArrowRight className=" animate-pulse" /></a></div>
         </div>
         {/* <div className="bg-purple-700 sm:w-[300px] pt-4  gap-1 flex flex-col items-center sm:justify-center  rounded-lg  w-[70%] h-[160px]">
           <BsWhatsapp />
