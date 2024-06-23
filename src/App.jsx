@@ -17,32 +17,25 @@ function App() {
     <div className=" w-full h-screen  ">
       {/* <Navbar/> */}
       <div>
-      <Navbar />
-        
+        <Navbar />
       </div>
       <div>
-      <Home />
-
+        <Home />
       </div>
       <div>
-      <AboutMe />
-
+        <AboutMe />
       </div>
       <div>
-      <Projects />
-
+        <Projects />
       </div>
       <div>
-      <Skills />
-
+        <Skills />
       </div>
       <div>
-
-      <Education />
+        <Education />
       </div>
       <div>
-
-      <Contact />
+        <Contact />
       </div>
     </div>
   );
