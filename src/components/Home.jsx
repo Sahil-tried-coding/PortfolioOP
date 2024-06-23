@@ -25,7 +25,7 @@ function Home() {
         </span> 
             <div className="font-bold text-md mt-12 md:text-2xl text-[#6919ba] font-Inter">
             
-            As an ambitious full-stack web developer , I am deeply passionate about revolutionizing the digital landscape with intuitive and engaging user interfaces..In the ever-evolving realm of technology
+            As an ambitious full-stack web developer, I am deeply passionate about revolutionizing the digital landscape with intuitive and engaging user interfaces..In the ever-evolving realm of technology
             
             </div>
             <div className="flex md:text-5xl flex-row text-3xl mt-10 gap-4">

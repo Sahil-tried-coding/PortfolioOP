@@ -10,7 +10,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import {Link} from "react-router-dom"
 function Contact() {
   return (
-    <div id="contact" className="#contact pt-[4.5rem] w-100 h-[100vh] bg-[#cbf]">
+    <div id="contact" className="#contact pt-[10.5rem] w-100 h-[100vh] bg-[#cbf]">
       <div className="sm:text-4xl text-center font-Rubik text-[#00000] font-bold text-2xl underline underline-offset-8 decoration-[#ffffff] decoration-solid decoration-4 py-4">
         Get in Touch with me!
       </div>

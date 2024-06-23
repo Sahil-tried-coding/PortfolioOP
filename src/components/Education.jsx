@@ -4,14 +4,14 @@ import { RiSchoolFill } from "react-icons/ri";
 import { FaSchool } from "react-icons/fa";
 function Education() {
   return (
-    <div id="education" className="w-full pt-[6rem] sm:h[40vh] h-screen bg-[#cbf]">
+    <div id="education" className="w-full pt-[10rem] sm:h[40vh] h-screen bg-[#cbf]">
 
         
         <div className="font-Rubik text-[#00000] font-bold text-4xl underline underline-offset-8 decoration-[#ffffff] decoration-solid decoration-4 py-4 ">
             Education
         </div>
         <div  className="flex my-5 flex-col gap-10 sm:flex-row">
-        <div className="bg-white   hover:scale-105 hover:duration-500 hover:ease-out  flex flex-col items-center justify-center mx-auto gap-6 w-[400px] rounded-lg h-[200px]">
+        <div className="bg-white   hover:scale-105 hover:duration-500 hover:ease-out  flex flex-col items-center justify-center mx-auto gap-6 w-[320px] rounded-lg h-[200px]">
 
         <div className="bg-white  flex items-center justify-center gap-6  " >
         <div className="text-3xl">
@@ -35,7 +35,7 @@ function Education() {
              72%
         </div>
         </div>
-        <div className="bg-white hover:scale-105 hover:duration-500 hover:ease-out flex flex-col items-center justify-center mx-auto gap-6 w-[400px] rounded-lg h-[200px]">
+        <div className="bg-white hover:scale-105 hover:duration-500 hover:ease-out flex flex-col items-center justify-center mx-auto gap-6 w-[320px] rounded-lg h-[200px]">
 
         <div className="bg-white flex items-center justify-center gap-6 " >
         <div className="text-3xl">
@@ -59,10 +59,10 @@ function Education() {
              82%
         </div>
         </div>
-        <div className="bg-white hover:scale-105 hover:duration-500 hover:ease-out flex flex-col items-center justify-center mx-auto gap-6 w-[400px] rounded-lg h-[200px]  ">
+        <div className="bg-white hover:scale-105 hover:duration-500 hover:ease-out flex flex-col items-center justify-center mx-auto gap-6 w-[320px] rounded-lg h-[200px]  ">
 
-        <div className="bg-white flex my-5  items-center justify-center gap-6 " >
-        <div className="text-3xl">
+        <div className="bg-white flex my-5  items-center justify-center gap-5 " >
+        <div className="text-3xl mx-2">
             <FaGraduationCap/>
         </div>
         <div className="font-semibold text-lg">
@@ -76,7 +76,7 @@ function Education() {
             </div>
         </div>
         </div>
-        <div className=" font-Rubik font-semibold mr-[15rem]">
+        <div className=" font-Rubik font-semibold  mr-20 mb-3">
             8.73 SGPA (80%)
         </div>
         </div>
