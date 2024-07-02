@@ -6,8 +6,9 @@ function Projects() {
     const handleClick = () => {
       setShowVideo(true); 
     };
+    //pt-[6rem]
   return (
-    <div id="projects" className="bg-[#cbf] pt-[6rem] w-full h-screen">
+    <div id="projects" className="bg-[#cbf]  w-full h-screen">
         <div className="font-Rubik text-[#00000] font-bold text-4xl underline underline-offset-8 decoration-[#ffffff] decoration-solid decoration-4 py-4 ">
             Projects
         </div>
@@ -15,8 +16,11 @@ function Projects() {
             Click Here
         </button>
         {
-            showVideo && 
-            <video src={vid} className="sm:w-[400px] sm:h-[250px]" autoPlay />
+            showVideo && <div>
+
+              <video src={vid} className="sm:w-[400px] sm:h-[250px]" autoPlay />
+              <h1 className="mt-5 text-3xl font-poppins font-bold">Stay Tuned Updating Amazing Projects Really Soon :) </h1>
+            </div>
             
         }
         

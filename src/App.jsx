@@ -14,7 +14,7 @@ function App() {
     Aos.init();
   }, []);
   return (
-    <div className=" w-full h-screen  ">
+    <div className=" w-full overflow-x-hidden h-screen  ">
       {/* <Navbar/> */}
       <div>
         <Navbar />

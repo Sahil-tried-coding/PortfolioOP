@@ -3,14 +3,15 @@ import { MdAccessTime } from "react-icons/md";
 import { RiSchoolFill } from "react-icons/ri";
 import { FaSchool } from "react-icons/fa";
 function Education() {
+    // pt-[10rem]
   return (
-    <div id="education" className="w-full pt-[10rem] sm:h[40vh] h-screen bg-[#cbf]">
+    <div id="education" className="w-full pt-[5rem] sm:pt-0  sm:h[40vh] h-screen bg-[#cbf]">
 
         
         <div className="font-Rubik text-[#00000] font-bold text-4xl underline underline-offset-8 decoration-[#ffffff] decoration-solid decoration-4 py-4 ">
             Education
         </div>
-        <div  className="flex my-5 flex-col gap-10 sm:flex-row">
+        <div  className="flex my-5 flex-col gap-10 sm:flex-col">
         <div className="bg-white   hover:scale-105 hover:duration-500 hover:ease-out  flex flex-col items-center justify-center mx-auto gap-6 w-[320px] rounded-lg h-[200px]">
 
         <div className="bg-white  flex items-center justify-center gap-6  " >

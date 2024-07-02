@@ -5,6 +5,7 @@ import javascript from "../Assets/javascript.png"
 import react from "../Assets/react.png"
 import tailwind from "../Assets/tailwind.png"
 import github from "../Assets/github.png"
+import gsap from "../Assets/Picsart_24-07-01_23-47-17-364.png"
 function Skills() {
     let skills =[
         {   src:html,
@@ -30,13 +31,13 @@ function Skills() {
         }
     ]
   return (
-    // 
-    <div className="w-full h-screen pt-[9rem] sm:pt[15rem] bg-[#cbf]" id="skills">
+    // pt-[9rem]
+    <div className="w-full h-screen  sm:pt[15rem] bg-[#cbf]" id="skills">
          <div className="max-w-[1000px] flex flex-col  justify-center p-4 w-full h-full">
             <div className="font-Rubik text-[#000] font-bold text-4xl underline underline-offset-8 decoration-[#ffffff] decoration-solid decoration-4 ">
                  Skills
             </div>
-               <div className="grid  grid-cols-2 justify-center items-center sm:mx-44 sm:grid-cols-3 sm:justify-center sm:items-center sm:w-full py-10 gap-4 text-center">
+               <div className="grid w-[20rem]  grid-cols-2 justify-center items-center sm:mx-44 sm:grid-cols-3 sm:justify-center sm:items-center sm:w-full py-10 gap-4 text-center">
           {
                 skills.map((data)=>{
                    return <div className=" bg-black shadow-md border-4 border-white   shadow-purple-600 flex flex-col justify-between" key={data.title}>
