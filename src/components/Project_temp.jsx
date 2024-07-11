@@ -10,7 +10,7 @@ function Project_temp() {
 
 
   return (
-    <div className="hover:scale-105 hover:duration-500 w-11/12 h-[30rem] shadow-xl shadow-black text-black  bg-white mx-auto sm:w-[30%] mt-10">
+    <div className="hover:scale-105 hover:duration-500 w-11/12 max-h-max shadow-xl shadow-black text-black  bg-white mx-auto sm:w-[30%] mt-10">
         <img src={data[0].src} className=" w-[100%] mx-auto h-[276px] bg-black">
 
         </img>
