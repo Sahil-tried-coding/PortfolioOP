@@ -1,7 +1,7 @@
 import logo from "../Assets/sahilshaikhlogo.png";
 import { MdHome } from "react-icons/md";
 import { animateScroll as scroll } from "react-scroll";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaTools } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
 import { FaRegHardDrive } from "react-icons/fa6";
@@ -10,11 +10,21 @@ import { FaGraduationCap } from "react-icons/fa6";
 import { LiaTimesSolid } from "react-icons/lia";
 import { Link } from "react-scroll";
 import { IoIosContact } from "react-icons/io";
+import gsap from "gsap/all";
 function Navbar() {
   const [nav, setnav] = useState(false);
+  const [sideBar,setSideBar]= useState(false);
 
+
+  useEffect(()=>{
+    gsap.from("#sidebar",{
+      x:120,
+      
+    })
+  },[])
   function changeHandler() {
-    setnav(!nav);
+    // setnav(!nav);
+    setSideBar(!sideBar)
   }
   const headers = [
     {
@@ -50,13 +60,35 @@ function Navbar() {
   ];
   return (
       <nav className="">
+        {
+          sideBar && (<div id="sidebar" className="sm:hidden h-full backdrop-blur-2xl w-[100%] ">
+          <ul className="text-black absolute top- right-0 -top-[10rem]  h-screen  backdrop-blur-2xl flex flex-col justify-center w-[40%] text-xl gap-4 items-center ">
+            
+              {headers.map((items) => {
+                return (
+                  <li 
+                  
+                    onClick={changeHandler}
+                    className="flex items-center gap-3 my-3"
+                    key={items.title}
+                  >
+                    {items.icon}{" "}
+                    <a href={items.url} >
+                      {items.title}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>)
+        }
         <div
           data-aos="fade-down"
           data-aos-duration="1000"
           className="fixed  bg-black w-full h-[80px]  flex justify-between items-center px-1  "
         >
           <div>
-            <Link onClick={() => scroll.scrollToTop()}>
+            <Link  onClick={() => scroll.scrollToTop()}>
               <img
                 src={logo}
                 className="  md:left-4  object-cover  h-[300px]"
@@ -77,14 +109,24 @@ function Navbar() {
           </ul>
           <div className="md:hidden z-10" onClick={changeHandler}>
             {!nav ? (
-              <FaBars className="text-white" />
+              <FaBars className="text-white text-2xl" />
             ) : (
               <LiaTimesSolid className="text-white" />
             )}
           </div>
           {/* for mobile */}
-          {nav && (
-            <ul className="text-[#AC49FF] absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center">
+          {/* {nav && (
+            
+          )} */}
+        </div>
+        {/* <div className="w-full"></div> */}
+      </nav>
+  );
+}
+
+export default Navbar;
+
+{/* <ul className="text-[#AC49FF] absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center">
               {headers.map((items) => {
                 return (
                   <li 
@@ -100,12 +142,4 @@ function Navbar() {
                   </li>
                 );
               })}
-            </ul>
-          )}
-        </div>
-        {/* <div className="w-full"></div> */}
-      </nav>
-  );
-}
-
-export default Navbar;
+            </ul> */}

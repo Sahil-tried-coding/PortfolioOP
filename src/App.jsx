@@ -23,10 +23,10 @@ function App() {
         <Home />
       </div>
       <div>
-        <AboutMe />
+        <Projects />
       </div>
       <div>
-        <Projects />
+        <AboutMe />
       </div>
       <div>
         <Skills />

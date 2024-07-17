@@ -13,30 +13,31 @@ function AboutMe() {
     document.body.removeChild(a);
   };
   // pt-[6rem]
+  // #171421
   return (
     <div
       id="about"
-      className="  w-full h-[100vh] sm:pt-10 flex flex-col gap-8 items-center  sm:justify-center  bg-[#cbf] "
+      className="  w-full h-[60vh] sm:pt-10 flex flex-col gap-8 items-center  sm:justify-center  bg-[#cbf]  "
     >
       <div className="font-Rubik font-bold text-4xl underline underline-offset-8 decoration-[#6919ba] decoration-solid decoration-4 ">
         About Me
       </div>
       <div
         id="box"
-        className="bg-white h-[440px]  p-3 w-[350px] md:h-[500px] md:flex md:flex-col md:justify-evenly rounded-md md:w-[600px]"
+        className="bg-[#2A194C] text-white h-[410px]  p-3 w-[350px] md:h-[500px] md:flex md:flex-col md:justify-evenly rounded-md md:w-[600px]"
       >
         <div className="gap-10">
           <p className="text-lg md:text-2xl mt-4 md:mt-6  font-poppins font-bold">
             Name:{" "}
-            <span className="text-[#6919ba]  font-Inter"> Sahil Shaikh</span>{" "}
+            <span className="font-medium  font-Inter"> Sahil Shaikh</span>{" "}
           </p>
           <p className="text-lg md:text-2xl mt-4 md:mt-6  font-poppins font-bold">
             Nationality:{" "}
-            <span className="text-[#6919ba] font-Inter"> Indian</span>{" "}
+            <span className="font-medium font-Inter"> Indian</span>{" "}
           </p>
           <p className="text-lg md:text-2xl mt-4 md:mt-6  font-poppins font-bold">
             Languages:{" "}
-            <span className="text-[#6919ba] font-Inter font-bold">
+            <span className="font-medium font-Inter font-bold">
               {" "}
               English,Hindi,Marathi
             </span>{" "}
@@ -45,26 +46,21 @@ function AboutMe() {
         <div className="mt-10 md:gap-10 ">
           <p className="text-lg my-3  md:text-2xl  items-center gap-3 flex">
             <FaLocationDot />
-            <span className="font-semibold font-Rubik text-[#6919ba] ">
+            <span className=" font-Rubik font-medium ">
               Shirdi,dist-AhemdNagar,
               <br /> 423109
             </span>
           </p>
           <p className="text-lg my-3 md:text-2xl  items-center gap-3 flex">
             <MdEmail />
-            <span className="font-semibold font-Rubik text-[#6919ba] ">
+            <span className=" font-Rubik font-medium ">
               Sahiltriedcoding@gmail.com
             </span>
           </p>
-          <p className="text-lg my-3 md:text-2xl  items-center gap-3 flex">
-            <FaPhone />
-            <span className="font-semibold font-Rubik text-[#6919ba] ">
-              +91 7972483330
-            </span>
-          </p>
+          
         </div>
         <button
-          className="   md:w-[200px] md:h-[50px] cursor-pointer text-center mx-auto w-full mt-5 text-white  p-3 rounded-lg font-Rubik font-semibold bg-fuchsia-700  "
+          className=" font-semibold  md:w-[200px] md:h-[50px] cursor-pointer text-center mx-auto w-full mt-5 text-white  px-3 py-3 rounded-lg font-Rubik  bg-fuchsia-700  "
           onClick={handleDownloadResume}
         >
           Get Resume
@@ -77,3 +73,11 @@ function AboutMe() {
 export default AboutMe;
 
 // <a href="https://drive.google.com/file/d/1b3Qsd0KnMk32hbyLmp8wj_NtixO-iVyd/view?pli=1">
+
+
+{/* <p className="text-lg my-3 md:text-2xl  items-center gap-3 flex">
+            <FaPhone />
+            <span className=" font-Rubik font-medium ">
+              +91 7972483330
+            </span>
+          </p> */}

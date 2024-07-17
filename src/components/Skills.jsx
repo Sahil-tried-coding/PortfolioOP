@@ -33,14 +33,14 @@ function Skills() {
     // pt-[9rem]
     <div className="w-full h-screen  sm:pt[15rem] bg-[#cbf]" id="skills">
          <div className="max-w-[1000px] flex flex-col  justify-center p-4 w-full h-full">
-            <div className="font-Rubik text-[#000] font-bold text-4xl underline underline-offset-8 decoration-[#ffffff] decoration-solid decoration-4 ">
-                 Skill
+            <div className="text-center font-Rubik text-[#000] font-bold text-4xl underline underline-offset-8 decoration-[#2d2082] decoration-solid decoration-4 ">
+                 Skills
             </div>
             {/* w-25 rem */}
                <div className="grid    grid-cols-2 justify-center items-center sm:mx-44 sm:grid-cols-3 sm:justify-center sm:items-center sm:w-full py-10 gap-2 text-center">
           {
                 skills.map((data)=>{
-                   return <div className=" bg-black shadow-md border-4 border-white   shadow-purple-600 flex flex-col justify-between" key={data.title}>
+                   return <div className=" bg-[#201737] shadow-md border-4 border-white   shadow-purple-600 flex flex-col justify-between" key={data.title}>
                         <img className="w-[100px] mx-auto mt-5 hover:scale-125 duration-500  " src={data.src}/>
                         <p className="text-white   font-Inter my-4 font-bold">{data.title}</p>
                     </div>

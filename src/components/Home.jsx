@@ -6,14 +6,14 @@ import { FaArrowDown } from "react-icons/fa6";
 function Home() {
    
   return (
-    <div id="home"  className="  w-full h-[100vh] flex-col flex items-center justify-center bg-[#cbf] ">
-        <div   className="flex flex-col px-8  pt-28 justify-center items-center max-w-[1000px] mx-auto ">
+    <div id="home"  className="  w-full h-[80vh] pt-20 flex-col flex items-center justify-center bg-[#cbf] ">
+        <div   className="flex flex-col gap-5 px-8  pt-28 sm:pt-[12rem] justify-center items-center max-w-[1000px] mx-auto ">
         
-            <p className=" -mt-[7rem] md:text-bold text-black font-Rubik text-xl md:text2xl">
-                Hello I am
+            <p className=" -mt-[7rem] sm:mb-2 md:text-bold text-black font-Rubik text-xl md:text2xl">
+                Hello 👋 I am
              </p>
                 <br/>
-                <span className="text-3xl md:text-3xl mt-2 md:-mt-2 font-bold  font-Inter text-black">
+                <span className="text-3xl md:text-3xl -mt-8 sm: md:-mt-2 font-bold  font-Inter text-black">
                 <ReactTyped
           strings={[
               "Sahil Shaikh","Full stack web dev"
