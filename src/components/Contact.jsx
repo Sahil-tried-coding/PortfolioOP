@@ -12,7 +12,7 @@ import { FaArrowDown } from "react-icons/fa";
 function Contact() {
   // pt-[10.5rem]
   return (
-    <div id="contact" className="#contact pt-[10rem]    w-[100vw] sm:h-[100vh] h-[80vh] bg-[#cbf]">
+    <div id="contact" className="#contact pt-[10rem]    w-[100vw] sm:h-[100vh] h-[100vh] bg-[#cbf]">
       <div className="sm:text-4xl mb-5 text-center font-Rubik text-[#00000] font-bold text-2xl underline underline-offset-8 decoration-[#ffffff] decoration-solid decoration-4 py-4">
         Get in Touch with me!
       </div>
