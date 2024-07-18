@@ -62,7 +62,7 @@ function Navbar() {
       <nav className="">
         {
           sideBar && (<div id="sidebar" className="sm:hidden h-full backdrop-blur-2xl w-[100%] ">
-          <ul className="text-black absolute top- right-0 -top-[10rem]  h-screen  backdrop-blur-2xl flex flex-col justify-center w-[40%] text-xl gap-4 items-center ">
+          <ul className="text-black absolute top- right-0 -top-[10rem]  h-screen  bg-white flex flex-col justify-center w-[40%] text-xl gap-4 items-center ">
             
               {headers.map((items) => {
                 return (
