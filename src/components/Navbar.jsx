@@ -59,17 +59,18 @@ function Navbar() {
     }
   ];
   return (
+    // absolute top- right-0 -top-[10rem]
       <nav className="">
         {
-          sideBar && (<div id="sidebar" className="sm:hidden h-full backdrop-blur-2xl w-[100%] ">
-          <ul className="text-black absolute top- right-0 -top-[10rem] backdrop-blur-3xl h-screen   flex flex-col justify-center w-[40%] text-xl gap-4 items-center ">
+          sideBar && (<div id="sidebar" className="z-10 sm:hidden h-full  w-[100%] ">
+          <ul className="text-black -mb-[24.5rem]  ml-[15rem]  backdrop-blur-3xl h-[100%]   flex flex-col justify-center w-[40%] text-xl gap-4 items-center ">
             
               {headers.map((items) => {
                 return (
                   <li 
                   
                     onClick={changeHandler}
-                    className="flex items-center gap-3 my-3"
+                    className="flex font-semibold items-center gap-3 my-3"
                     key={items.title}
                   >
                     {items.icon}{" "}
@@ -108,10 +109,10 @@ function Navbar() {
             })}
           </ul>
           <div className="md:hidden z-10" onClick={changeHandler}>
-            {!nav ? (
+          {sideBar ? (
+            <LiaTimesSolid className="text-white text-2xl" />
+          ) : (
               <FaBars className="text-white text-2xl" />
-            ) : (
-              <LiaTimesSolid className="text-white" />
             )}
           </div>
           {/* for mobile */}
