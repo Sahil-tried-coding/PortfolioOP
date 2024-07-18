@@ -8,7 +8,7 @@ function Project_temp({title, under_title, desc, img,url}) {
 
 
   return (
-    <div className="hover:scale-105 hover:duration-700 w-11/12 max-h-max shadow-xl shadow-black text-white  bg-[#201737] mx-auto sm:w-[30%] mt-10">
+    <div className="sm:hover:scale-105 sm:hover:duration-700 w-11/12 max-h-max shadow-xl shadow-black text-white  bg-[#201737] mx-auto sm:w-[30%] mt-10">
       <img src={img} className=" w-[100%] mx-auto h-[276px] bg-white p-3"></img>
       <div className="flex my-2 p-1 items-center justify-between">
         <div className="flex flex-col px-3">
