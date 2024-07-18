@@ -32,13 +32,14 @@ function Projects() {
     
     //pt-[6rem]
   return (
-    <div id="projects" className="bg-[#cbf]  pb-20 w-full max-h-max">
+    <div id="projects" className="bg-[#cbf] pb-20 w-full flex flex-col max-h-max">
         <div id="title" className="font-Rubik text-center  text-[#00000] font-bold text-4xl underline underline-offset-8 decoration-[#48199f] decoration-solid decoration-4 py-4 ">
             Projects
         </div>
-        
+        <div className="flex flex-col sm:flex-row sm:gap-1 mt-10">
         <Project_temp url={data[0].url} under_title={data[0].under_title} title={data[0].title} img={img1} desc={data[0].desc}/>
         <Project_temp url={data[1].url} under_title={data[1].under_title} title={data[1].title} img={img} desc={data[1].desc}/>
+        </div>
     </div>
   )
 }

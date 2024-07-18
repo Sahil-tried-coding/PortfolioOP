@@ -31,9 +31,9 @@ function Skills() {
     ]
   return (
     // pt-[9rem]
-    <div className="w-full h-screen  sm:pt[15rem] bg-[#cbf]" id="skills">
-         <div className="max-w-[1000px] flex flex-col  justify-center p-4 w-full h-full">
-            <div className="text-center font-Rubik text-[#000] font-bold text-4xl underline underline-offset-8 decoration-[#2d2082] decoration-solid decoration-4 ">
+    <div className="w-full  h-[100vh] sm:pt-[1rem] bg-[#cbf]" id="skills">
+         <div className="max-w-[1000px] flex flex-col  justify-center p-4 w-full h-full sm:ml-[5rem]">
+            <div className="sm:ml-[28rem] text-center font-Rubik text-[#000] font-bold text-4xl underline underline-offset-8 decoration-[#2d2082] decoration-solid decoration-4 ">
                  Skills
             </div>
             {/* w-25 rem */}

@@ -6,7 +6,7 @@ import { FaArrowDown } from "react-icons/fa6";
 function Home() {
    
   return (
-    <div id="home"  className="  w-full h-[80vh] pt-20 flex-col flex items-center justify-center bg-[#cbf] ">
+    <div id="home"  className="  w-full h-[90vh] pt-20 flex-col flex items-center justify-center bg-[#cbf] ">
         <div   className="flex flex-col gap-5 px-8  pt-28 sm:pt-[12rem] justify-center items-center max-w-[1000px] mx-auto ">
         
             <p className=" -mt-[7rem] sm:mb-2 md:text-bold text-black font-Rubik text-xl md:text2xl">

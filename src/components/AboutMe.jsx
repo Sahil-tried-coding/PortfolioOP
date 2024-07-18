@@ -17,7 +17,7 @@ function AboutMe() {
   return (
     <div
       id="about"
-      className="  w-full h-[60vh] sm:pt-10 flex flex-col gap-8 items-center  sm:justify-center  bg-[#cbf]  "
+      className="  w-full h-[80vh] sm:pt-10 flex flex-col gap-8 items-center  sm:justify-center  bg-[#cbf]  "
     >
       <div className="font-Rubik font-bold text-4xl underline underline-offset-8 decoration-[#6919ba] decoration-solid decoration-4 ">
         About Me

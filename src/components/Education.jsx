@@ -5,13 +5,13 @@ import { FaSchool } from "react-icons/fa";
 function Education() {
     // pt-[10rem]
   return (
-    <div id="education" className="w-full text-white pt-[5rem] sm:pt-0  sm:h[40vh] h-[90vh] bg-[#cbf]">
+    <div id="education" className="w-full text-white pt-[5rem] sm:pt-0  sm:h[40vh] h-[90vh] bg-[#cbf] sm:h-[30vh]">
 
         
         <div className="text-center font-Rubik text-black font-bold text-4xl underline underline-offset-8 decoration-[#3916a3] decoration-solid decoration-4 py-4 ">
             Education
         </div>
-        <div  className="flex my-5 flex-col gap-10 sm:flex-col">
+        <div  className="flex my-5 flex-col gap-10 sm:flex-row ">
         <div className="bg-[#201737]  hover:scale-105 hover:duration-500 hover:ease-out  flex flex-col items-center justify-center mx-auto gap-6 w-[350px] rounded-lg h-[200px]">
 
         <div className="bg-[#201737]  flex items-center justify-center gap-6  " >
