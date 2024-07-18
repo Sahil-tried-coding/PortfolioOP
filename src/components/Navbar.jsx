@@ -16,12 +16,12 @@ function Navbar() {
   const [sideBar,setSideBar]= useState(false);
 
 
-  useEffect(()=>{
-    gsap.from("#sidebar",{
-      x:120,
+  // useEffect(()=>{
+  //   gsap.from("#sidebar",{
+  //     x:120,
       
-    })
-  },[])
+  //   })
+  // },[])
   function changeHandler() {
     // setnav(!nav);
     setSideBar(!sideBar)
