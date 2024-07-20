@@ -59,7 +59,7 @@ function Navbar() {
       <nav className="">
         {
           sideBar && (<div id="sidebar" className="  fixed overflow-y-scroll sm:hidden h-full  w-[100%] ">
-          <ul className="text-black -mb-[24.5rem]  ml-[15rem]  backdrop-blur-3xl h-[60%]   flex flex-col justify-center w-[40%] text-xl gap-4 items-center ">
+          <ul className="text-black -mb-[24.5rem]  ml-[15rem]  backdrop-blur-3xl h-[80%]   flex flex-col justify-center w-[40%] text-xl gap-4 items-center ">
             
               {headers.map((items) => {
                 return (
@@ -84,7 +84,7 @@ function Navbar() {
           data-aos-duration="1000"
           className="fixed  bg-black w-full h-[80px]  flex justify-between items-center px-1  "
         >
-          <div>
+          <div className="">
             <Link  onClick={() => scroll.scrollToTop()}>
               <img
                 src={logo}
