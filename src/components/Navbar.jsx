@@ -32,20 +32,16 @@ function Navbar() {
       url: "/",
       icon: <MdHome />,
     },
+   
     {
-      title: "About",
-      url: "#about",
-      icon: <IoPersonSharp />,
+      title: "Projects",
+      url: "#projects",
+      icon: <FaRegHardDrive />,
     },
     {
       title: "Skills",
       url: "#skills",
       icon: <FaTools />,
-    },
-    {
-      title: "Projects",
-      url: "#projects",
-      icon: <FaRegHardDrive />,
     },
     {
       title: "Education",
