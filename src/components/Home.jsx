@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaArrowDown } from "react-icons/fa6";
+import hello from "../Assets/hello.gif"
 function Home() {
    
   return (
@@ -10,7 +11,7 @@ function Home() {
         <div   className="flex flex-col gap-5 px-8  pt-28 sm:pt-[12rem] justify-center items-center max-w-[1000px] mx-auto ">
         
             <p className=" -mt-[7rem] sm:mb-2 md:text-bold text-black font-Rubik text-xl md:text2xl">
-                Hello 👋 I am
+                Hello👋 I am
              </p>
                 <br/>
                 <span className="text-3xl md:text-3xl -mt-8 sm: md:-mt-2 font-bold  font-Inter text-black">

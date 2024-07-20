@@ -1,6 +1,6 @@
 import { FaLocationDot } from "react-icons/fa6";
-import resume from "../pdf/RESUME.pdf";
-import { FaPhone } from "react-icons/fa";
+import resume from "../pdf/Resume-stc-3.pdf"
+// import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 function AboutMe() {
@@ -60,7 +60,7 @@ function AboutMe() {
           
         </div>
         <button
-          className=" font-semibold  md:w-[200px] md:h-[50px] cursor-pointer text-center mx-auto w-full mt-5 text-white  px-3 py-3 rounded-lg font-Rubik  bg-fuchsia-700  "
+          className=" font-semibold  md:w-[300px] md:h-[50px] cursor-pointer text-center mx-auto w-full mt-5 text-white  px-3 py-3 rounded-lg font-Rubik  bg-fuchsia-700  "
           onClick={handleDownloadResume}
         >
           Get Resume
