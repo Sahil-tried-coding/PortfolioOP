@@ -14,7 +14,7 @@ function Home() {
                 Hello👋 I am
              </p>
                 <br/>
-                <span className="text-3xl md:text-3xl -mt-8 sm: md:-mt-2 font-bold  font-Inter text-black">
+                <span className="text-3xl md:text-3xl -mt-8 sm: md:-mt-2 font-bold  font-Inter text-[#3b0088] ${}">
                 <ReactTyped
           strings={[
               "Sahil Shaikh","Full stack web dev"
