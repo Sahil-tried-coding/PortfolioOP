@@ -1,5 +1,5 @@
 import { FaLocationDot } from "react-icons/fa6";
-import resume from "../pdf/Resume-stc-3.pdf"
+import resume from "../pdf/Resume-sahil.pdf"
 // import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 

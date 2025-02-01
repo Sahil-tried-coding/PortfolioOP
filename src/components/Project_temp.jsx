@@ -3,13 +3,15 @@ import gif from "../Assets/launch-unscreen.gif";
 import { FaGithub } from "react-icons/fa";
 import react from "../Assets/react.png"
 import tailwind from "../Assets/tailwind.png"
+// import firebase                       
+import firebase from "../Assets/firebase.png"
 // import value from "./value"
-function Project_temp({title, under_title, desc, img,url}) {
+function Project_temp({title, under_title, desc, img,url,db,github_url}) {
 
 
   return (
-    <div className="sm:hover:scale-105 sm:hover:duration-700 w-11/12 max-h-max shadow-xl shadow-black text-white  bg-[#201737] mx-auto sm:w-[30%] mt-10">
-      <img src={img} className=" w-[100%] mx-auto h-[276px] bg-white p-3"></img>
+    <div className="sm:hover:scale-105 sm:hover:duration-700 w-11/12 max-h-max shadow-xl shadow-black text-white  bg-[#201737] mx-auto sm:w-[55%] mt-10">
+      <img src={img} className=" w-[100%] mx-auto h-[276px] bg-white sm:h-[240px] "></img>
       <div className="flex my-2 p-1 items-center justify-between">
         <div className="flex flex-col px-3">
           <h1 className="font-semibold text-2xl font-Inter">{title}</h1>
@@ -20,7 +22,7 @@ function Project_temp({title, under_title, desc, img,url}) {
           
         </div>
         <span className="  -mt-8 flex items-center gap-3 text-3xl font-bold ">
-          <a href="https://github.com/Sahil-tried-coding/Tours-and-Travels">
+          <a href={github_url}>
             <FaGithub />
           </a>
           <a href={url}>
@@ -34,6 +36,9 @@ function Project_temp({title, under_title, desc, img,url}) {
         </div>
           <img className=" border-0  border-white p-1 w-10 h-10  " src={react}/>
           <img className=" border-0  border-white p-1 w-10 h-10 " src={tailwind}/>
+          {
+            db?<img className=" border-0  border-white p-1 w-10 h-10 " src={firebase} />:""
+          }
           </div><hr/>
       <div className="p-2 py-5 text-sm font-medium font-Rubik">{desc}</div>
       

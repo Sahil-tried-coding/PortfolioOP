@@ -5,6 +5,7 @@ import javascript from "../Assets/javascript.png"
 import react from "../Assets/react.png"
 import tailwind from "../Assets/tailwind.png"
 import github from "../Assets/github.png"
+import firebase from "../Assets/firebase.png"
 function Skills() {
     let skills =[
         {   src:html,
@@ -27,6 +28,9 @@ function Skills() {
         },
         {   src:github,
             title:"Github"
+        },
+        {   src:firebase,
+            title:"Firebase"
         }
     ]
   return (
@@ -41,7 +45,7 @@ function Skills() {
           {
                 skills.map((data)=>{
                    return <div className=" bg-[#201737] shadow-md border-4 border-white   shadow-purple-600 flex flex-col justify-between" key={data.title}>
-                        <img className="w-[100px] mx-auto mt-5 hover:scale-125 duration-500  " src={data.src}/>
+                        <img className="w-[100px] h-[100px] mx-auto mt-5 hover:scale-125 duration-500 object-contain " src={data.src}/>
                         <p className="text-white   font-Inter my-4 font-bold">{data.title}</p>
                     </div>
                 })
